@@ -90,7 +90,7 @@ function startAdapter(options) {
                             return [2 /*return*/];
                         }
                         hostname = adapter.config.host.toLowerCase();
-                        requestPrefix = "http://" + hostname + ":1925/1/";
+                        requestPrefix = "https://" + hostname + ":1926/6/";
                         // watch own states
                         adapter.subscribeStates(adapter.namespace + ".*");
                         adapter.subscribeObjects(adapter.namespace + ".*");
